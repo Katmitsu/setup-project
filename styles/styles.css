@@ -25,12 +25,17 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 64px;
+}
+
 p {
   color: #000000;
   font-family: var(--body-font);
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+  font-size: 18px;
 }
 
 .hero {
