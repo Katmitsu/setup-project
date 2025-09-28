@@ -36,6 +36,7 @@ p {
   line-height: 30px;
 }
 
+/* container for intro */
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -43,13 +44,14 @@ p {
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: bold;
   margin: 0;
 }
 
 .content {
-  padding: 160px 20px;
+  padding: 0;
+  text-align: center;
 }
 
 .content h1 {
@@ -70,6 +72,7 @@ p {
 .content-container {
   margin: 30px;
   padding: 60px;
+  text-align: center;
 }
 
 .btn-branding {
@@ -112,6 +115,10 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .hero p {
+    padding: 80px 20px;
+    font-size: 15px;
   }
   .project-description {
     padding: 0;
