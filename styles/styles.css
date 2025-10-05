@@ -61,8 +61,9 @@ p {
 }
 
 .container {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
 }
 .content {
   padding: 0;
@@ -168,7 +169,6 @@ footer .email-link {
   color: black;
   text-decoration: none;
   font-weight: 24px;
-  text-align: center;
 }
 
 footer .email-link:hover {
@@ -197,12 +197,15 @@ footer .social-links a:hover {
 
 footer .contact-box {
   background: var(--secondary-color);
-  padding: 20px 40px;
+  padding: 30px 120px;
   border-radius: 10px;
+  margin: 40px auto;
 }
 
 footer .contact-box p {
-  margin: 0 auto;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
 }
 
 /* Media Queries for responsiveness */
@@ -216,6 +219,10 @@ footer .contact-box p {
     font-size: 20px;
     line-height: 40px;
     padding: 0 20px;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 28px;
   }
   p {
     font-size: 16px;
