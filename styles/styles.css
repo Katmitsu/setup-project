@@ -23,6 +23,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.2;
 }
 
 h2 {
@@ -55,9 +56,10 @@ p {
 }
 
 .hero p {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: bold;
   margin: 0;
+  color: #272142;
 }
 
 .container {
@@ -212,7 +214,7 @@ footer .contact-box p {
 
 @media (max-width: 950px) {
   h1 {
-    font-size: 58px;
+    font-size: 51px;
     padding: 5px;
   }
   h2 {
@@ -232,8 +234,7 @@ footer .contact-box p {
     padding: 80px 20px;
   }
   .hero p {
-    padding: 80px 20px;
-    font-size: 15px;
+    font-size: 26px;
   }
   .project-description {
     padding: 0;
